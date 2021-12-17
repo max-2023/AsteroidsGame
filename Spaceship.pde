@@ -16,4 +16,20 @@ class Spaceship extends Floater
       myCenterY = (int)(Math.random()*800); 
     }
 
+  public float getX() {
+    return (float) myCenterX;
+  }
+  
+  public void setX(double x) {
+    myCenterX = x; 
+  }
+  
+  public float getY() {
+    return (float) myCenterY;
+  }
+
+  public void setY(double y) {
+    myCenterY = y; 
+  }
+
 }
